@@ -14,7 +14,7 @@ if (!OPENAI_API_KEY) {
   process.exit(1);
 }
 
-const PORT = 3001;
+const PORT = 3000;
 const wss = new WebSocketServer({ port: PORT });
 
 wss.on("connection", async (ws, req) => {
