@@ -76,9 +76,9 @@ curl --request POST \
 
 - **Voice**: Talk normally with the agent
 - **Chat commands**:
-  - `rag on` - Activate document search
+  - `rag on` - Activate document search (NEEDS WORK - STILL DOES NOT DO RAG)
   - `rag off` - Normal voice only
-  - `rag test [query]` - Test search
+  - `rag test [query]` - Test search ( RAG QUERIES WORK THIS WAY, BUT NOT THROUGH VOICE)
 
 ## Production
 
